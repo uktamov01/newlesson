@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    border-bottom: 1px solid #ddd;
+}
+.nav_logo{
+    flex: 1;
+    text-transform: uppercase;
+}
+.nav_collection{
+    display: flex;
+    list-style: none;
+}
+.nav_item{
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.banner{
+    width: 100%;
+    height: 474px;
+    
+    margin-top: 50px;
+    display: flex;
+    padding: 0 5%;
+}
+.banner__image{
+    width: 55%;
+    height: 100%;
+    background: url(./IMAGE.png) no-repeat center/cover;
+}
+.banner__text{
+    width: 45%;
+    height: 100%;
+    padding-left: 51px;
+}
+.banner__text h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 18px;
+}
+.banner__text h1{
+    text-transform: uppercase;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.three__continer{
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.three__item{
+    width: calc(33%-10);
+    height: auto;
+    margin: 10px;
+}
+.photo1{
+    height: 254px;
+width: 380px;
+left: 10px;
+top: 25.5px;
+border-radius: 0px;
+
+}
+.something{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+}
+.big{
+    text-transform: uppercase;
+    width: 347px;
+    height: 72px;
+}
+.big_two{
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+.photo2{
+    height: 254px;
+    width: 380px;
+
+}
+.big_3{
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+.photo3{
+    width: 380px;
+    height: 254px;
+}
+.bigman{
+    width: 347px;
+    height: 72px;
+    text-transform: uppercase;
+}
+.four__continer{
+    width: 100%;
+    height: auto;
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.four_item{
+    width: 283px;
+    height: auto;
+    margin: 10px;
+   
+    flex-wrap: wrap;
+}
+.photo__two{
+    width: 283px;
+    height: 187px;
+}
+.something1{
+    margin-left: 80px;
+}
+.big2{
+    width: 100%;
+}
+.big_three{
+    border-top: 20px;
+}
+.btn{
+    width: 170px;
+    font-size: 12px;
+    height: 25px;
+    background: white;
+    color: #333;
+    border: 1px solid #333;
+    
+    margin: 40px;
+    margin-left: 40%;
+}
+.five_continer{
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+}
+.five_item{
+    width: 48%;
+    height: 350px;
+    
+    margin: 10px;
+}
+.something1{
+    position: relative;
+    right: 767px;
+    top: 100px;
+}
+.four_photo{
+    height: 350px;
+width: 583px;
+left: 10px;
+top: 24.9px;
+
+
+}
+.big3{
+    width: 100%;
+}
+.five_item2{
+    width: 48%;
+    height: 350px;
+   
+    margin: 10px;
+    margin-top: 130px;
+}
+.big_three1{
+    margin-top: 17px;
+}
+.big_three3{
+    margin-top: 17px;
+}
+.black_part{
+    width: 100%;
+    height: 650px;
+    background: black;
+    padding: 7%;
+    
+    margin-top: 130px;
+    border: 2px solid white;
+}
+.bottom_part{
+width: 100%;
+height: 80px;
+display: flex;
+}
+.logo{
+    color: white;
+}
+.logo2{
+    color: rgba(255, 255, 255, 0.353);
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 22px;
+}
+.draw{
+    color:rgba(255, 255, 255, 0.353);
+}
+.parts{
+    display: flex;
+}
+.footer_part{
+    width: 18%;
+    height: 560px;
+ 
+}
+.write_black{
+    color: rgba(255, 255, 255, 0.353) ;
+}
+.write{
+    color: white;
+}
+.endly{
+color:  rgba(255, 255, 255, 0.353);
+}
+.email{
+    width: 200px;
+    height: 35px;
+    background: white;
+    color: #333;
+    border:1px solid  #333;
+    position: relative;
+    left: 833px;
+    bottom: 535px;
+}
+.email2{
+    width: 55px;
+    height: 35px;
+    background: black;
+    color: #ddd;
+    position: relative;
+    left: 823px;
+    bottom: 535px;
+    border: 2px solid #333;
+}
+
+
